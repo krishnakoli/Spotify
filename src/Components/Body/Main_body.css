@@ -1,0 +1,20 @@
+.spotify_mainbody{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    max-width: auto;
+}
+.spotify_mainbody>img{
+    margin-right: 15px;
+    width: 300px;
+    min-width: auto;
+}
+
+.spotify_info{
+    max-width: auto;
+    color: white;
+}
+
+.spotify_info>p{
+    color:grey;
+}

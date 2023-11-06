@@ -1,0 +1,13 @@
+.sidebaroption{
+    display: flex;
+    color:grey;
+}
+
+.sidebaroptiontitle{
+    padding: 2px 0px 0px 4px;
+    cursor: pointer;
+}
+
+.sidebaroption:hover{
+    color:white;
+}

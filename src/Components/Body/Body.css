@@ -1,0 +1,30 @@
+.spotify_body{
+    flex:0.8;
+    padding: 15px;
+    background: linear-gradient(rgb(91,87,115),black);
+    overflow-y: overlay;
+}
+
+.body_header>.body_play{
+    cursor: pointer;
+    color:#03C03C;
+}   
+
+.liked{
+    margin: 20px;
+    color:#03C03C;
+}
+
+.dotdotdot{
+    cursor: pointer;
+    color: white;
+}
+
+.body_header{
+    margin-top: 5px;
+}
+
+.spotify_body::-webkit-scrollbar{
+    display: none;
+}
+ 

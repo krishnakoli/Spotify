@@ -1,0 +1,119 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    background-color: #282828;
+    width: 100%;
+    color:whitesmoke;
+    padding: 10px;
+}
+
+/* left Footer */
+
+.left{
+    flex:0.3;
+    display: flex; 
+    align-items: center;
+}
+
+.footer_albumphoto{
+    padding-right: 20px;
+}
+
+.song_img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.footer_songdetails{
+    max-width: 300px;
+}
+
+.songname{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+
+.artistname{
+    color:grey;
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 200px;
+}
+
+/* Center Footer */
+
+.center{
+    display: flex;
+    flex-direction: column;
+    flex:0.6;
+    margin-top: 3px;
+    max-width: 300px;
+}
+
+.paybuttons{
+    opacity: 1;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    align-items: center;
+}
+
+.shuffle{
+    color:#03C03C;
+}
+
+.loop{
+    color:#03C03C;
+}
+
+.shuffle:hover,
+.previous:hover,
+.play:hover,
+.next:hover,
+.loop:hover{
+    opacity: 0.7;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+
+/* Right Footer */
+
+.right{
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex:0.3;
+    opacity: 1;
+}
+
+.bar{
+    width:100px;
+    margin: 0px 10px;
+}
+
+.queue{
+    color:#03C03C
+}
+
+.queue:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.volumebutton:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.right * .MuiSlider-root{
+    color:white
+}
+
+.right * .MuiSlider-root:hover{
+    opacity: 0.5;
+    color:#03C03C;
+}

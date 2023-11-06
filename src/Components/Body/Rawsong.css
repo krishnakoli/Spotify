@@ -1,0 +1,19 @@
+.song{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.song>img{
+    width: 60px;
+    margin-right: 15px;
+}
+
+.song_info>h6{
+    padding-top: 4px;
+    color: white;
+    margin-bottom: 0px;
+}
+.song_info>p{
+    color:grey;
+}

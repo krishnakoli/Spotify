@@ -1,0 +1,39 @@
+
+.Login{
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+}
+
+.login_logo{
+    width: 40%;
+    max-height: auto;
+}
+
+.container{
+     padding-top: 200px;
+    text-align: center;
+}
+
+.logo{
+    padding: 50px 0px 100px 0px;
+}
+
+a{
+    text-decoration:none;
+    padding: 15px;
+    color: white;
+}
+
+.spotify_button{
+    padding: 15px 10px 15px 10px;
+    display: inline-block;
+    border:1px solid;
+    border-radius: 50px;
+    background-color: green;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
